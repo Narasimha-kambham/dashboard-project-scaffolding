@@ -1,0 +1,70 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: rgba(20, 22, 37, 0.8);
+  backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  z-index: 50;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  color: var(--color-text-primary);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-accent);
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.userName {
+  font-weight: 500;
+}
+
+.roleBadge {
+  background-color: var(--color-accent);
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.logoutBtn {
+  background: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-primary);
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all var(--transition-speed);
+}
+
+.logoutBtn:hover {
+  background-color: var(--color-danger);
+  border-color: var(--color-danger);
+  color: white;
+}

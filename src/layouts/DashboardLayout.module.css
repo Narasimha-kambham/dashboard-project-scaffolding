@@ -1,0 +1,23 @@
+.layout {
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+}
+
+.content {
+  padding-top: var(--navbar-height);
+  padding-left: 0;
+  transition: padding-left var(--transition-speed) ease;
+}
+
+.contentShift {
+  /* Only shift content on desktop, mobile has overlay */
+}
+
+@media (min-width: 1025px) {
+  .contentShift {
+    padding-left: var(--sidebar-width);
+  }
+  .content {
+    padding-left: var(--sidebar-width); /* Default to open on desktop */
+  }
+}
