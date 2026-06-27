@@ -199,20 +199,20 @@ npm run dev
 
 ## Screenshots
 
-### Login
-*(Add screenshot)*
+### Login Page
+![Login Page](screenshots/login-page.png)
 
 ### Recruiter Dashboard
-*(Add screenshot)*
+![Recruiter Dashboard](screenshots/recruiter-page.png)
 
 ### Captain Dashboard
-*(Add screenshot)*
+![Captain Dashboard](screenshots/captain-page.png)
 
 ### Admin Dashboard
-*(Add screenshot)*
+![Admin Dashboard](screenshots/admin-page.png)
 
-### Unauthorized
-*(Add screenshot)*
+### Error Page
+![Error Page](screenshots/Error-page.png)
 
 ---
 
