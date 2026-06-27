@@ -221,9 +221,3 @@ npm run dev
 - Replace mock AuthContext with real authentication
 - Fetch navigation links dynamically based on role and permissions
 - Implement lazy loading with React.lazy and Suspense for nested routes
-
----
-
-## Author
-
-*(Placeholder)*
